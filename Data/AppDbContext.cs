@@ -1,4 +1,10 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+using Onlineshop.Models;
+
+namespace Onlineshop.Data
+{
+    
 
 public class ApplicationDbContext : DbContext
 {
@@ -6,6 +12,9 @@ public class ApplicationDbContext : DbContext
         : base(options)
     {
     }
+      protected override void OnConfiguring(DbContextOptionsBuilder optionBuilder){
+            optionBuilder.UseSqlServer("Server=localhost; Database=Assessement; User id=SA; Password=JidKim7804; Encrypt=True; TrustServerCertificate=True");
+        }
 
     public DbSet<User> Users { get; set; }
     public DbSet<Product> Products { get; set; }
@@ -44,4 +53,4 @@ public class ApplicationDbContext : DbContext
 
 }
 
-
+}

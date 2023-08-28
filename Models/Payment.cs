@@ -1,3 +1,4 @@
+namespace Onlineshop.Models{
 public class Payment
 {
     public int PaymentId {get;set;}
@@ -6,4 +7,5 @@ public class Payment
     //Foreign Key for Order
     public int OrderId {get;set;}
     public Order Order {get;set;}
+}
 }

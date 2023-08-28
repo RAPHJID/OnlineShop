@@ -1,0 +1,5 @@
+/home/jidraf/JidOnlineShop/obj/Debug/net7.0/JidOnlineShop.csproj.AssemblyReference.cache
+/home/jidraf/JidOnlineShop/obj/Debug/net7.0/JidOnlineShop.GeneratedMSBuildEditorConfig.editorconfig
+/home/jidraf/JidOnlineShop/obj/Debug/net7.0/JidOnlineShop.AssemblyInfoInputs.cache
+/home/jidraf/JidOnlineShop/obj/Debug/net7.0/JidOnlineShop.AssemblyInfo.cs
+/home/jidraf/JidOnlineShop/obj/Debug/net7.0/JidOnlineShop.csproj.CoreCompileInputs.cache

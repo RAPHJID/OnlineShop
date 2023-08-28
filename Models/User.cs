@@ -1,3 +1,4 @@
+namespace Onlineshop.Models{
 public class User 
 {
     public int UserId {get;set;}
@@ -9,4 +10,5 @@ public class User
 
     //Navigate property for Orders
     public ICollection<Order> Orders {get;set;}
+}
 }

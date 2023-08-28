@@ -1,3 +1,4 @@
+namespace Onlineshop.Models{
 public class Order
 {
     public int OrderId {get;set;}
@@ -12,4 +13,5 @@ public class Order
 
     //Navigation property for Payment
     public Payment Payment {get;set;}
+}
 }
